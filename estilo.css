@@ -1,0 +1,193 @@
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif;
+	}
+	body{
+        background-image: linear-gradient(100deg, #07366A, #1B7DE7);
+		background-size: 100vw 100vh;
+	}
+
+	.header{
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0;left: 0;
+	}
+	.container{
+		width: 90%;
+		max-width: 1200px;
+		margin: auto;
+	}
+	.container .btn-menu, .logo{
+		float: left;
+		line-height:100px;
+	}
+	.container .btn-menu label{
+		color: #fff;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	.logo h1{
+		color: #fff;
+		font-weight: 400;
+		font-size: 22px;
+		margin-left: 10px;
+	}
+	.container .menu{
+		float: right;
+		line-height: 100px;
+	}
+	.container .menu a{
+		display: inline-block;
+		padding: 15px;
+		line-height: normal;
+		text-decoration: none;
+		color: #fff;
+		transition: all 0.3s ease;
+		border-bottom: 2px solid transparent;
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	.container .menu a:hover{
+		border-bottom: 2px solid #ffffff;
+		padding-bottom: 5px;
+	}
+
+	/*Menu lateral*/
+	#btn-menu{
+		display: none;
+        margin: 50px 100px;
+	}
+	.container-menu {
+		
+	}
+
+	#btn-menu:checked ~ .container-menu{
+		opacity: 1;
+		visibility: visible;
+	}
+	.cont-menu{
+		width: 100%;
+		max-width: 250px;
+		background: #0056B3;
+		height: 100vh;
+		position: relative;
+		transition: all 500ms ease;
+		transform: translateX(-100%);
+	}
+	#btn-menu:checked ~ .container-menu .cont-menu{
+		transform: translateX(0%);
+	}
+	.cont-menu nav{
+		transform: translateY(15%);
+	}
+	.cont-menu nav a{
+		display: block;
+		text-decoration: none;
+		padding: 20px;
+		color: #ffffff;
+		border-left: 5px solid transparent;
+		transition: all 400ms ease;
+	}
+	.cont-menu nav a:hover{
+		border-left: 5px solid #ffffff;
+		background: #0A407C;
+	}
+	.cont-menu label{
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		color: #fff;
+		cursor: pointer;
+		font-size: 18px;
+	}
+	/*Fin de Menu lateral*/
+
+    .logo {
+		position: absolute;
+        width: 200px;
+        margin: 20px 50px;
+    }
+
+	.conteudo1{
+		background-color: #ffffff;
+		width: 300px;
+		height: 300px;
+		margin: 200px 40px;
+		float: left;
+		text-align: center;
+		color: #000000;
+		border-radius: 10px;
+	}
+
+	.conteudo2 {
+		background-color: #ffffff;
+		width: 300px;
+		height: 300px;
+		margin: 100px 40px;
+		float: left;
+		text-align: center;
+		color: #000000;
+		border-radius: 10px;
+	}
+
+	.conteudo3 {
+		background-color: #ffffff;
+		width: 300px;
+		height: 300px;
+		margin: 600px 62px;
+		float: right;
+		position: absolute;
+		text-align: center;
+		color: #000000;
+		border-radius: 10px;
+	}
+
+	.conteudo4 {
+		background-color: #ffffff;
+		width: 300px;
+		height: 300px;
+		margin: 600px 442px;
+		float: right;
+		position: absolute;
+		text-align: center;
+		color: #000000;
+		border-radius: 10px;
+	}
+
+	.conteudo5 {
+		background-color: #ffffff;
+		width: 300px;
+		height: 300px;
+		margin: 600px 822px;
+		float: right;
+		position: absolute;
+		text-align: center;
+		color: #000000;
+		border-radius: 10px;
+	}
+
+	.aluno {
+		position: absolute;
+		left: 850px;
+		top: 25px;
+		color: #fff;
+		font-size: 30px;
+	}
+
+	.icon {
+		margin: 20px;
+	}
+
+	/* table */
+
+	table, tr, td, th {
+		border: 5px solid #000000;
+		border-collapse: collapse;
+		margin: 200px auto;
+		padding: 10px;
+		background-color: #ffffff;
+		text-align: justify;
+	}
