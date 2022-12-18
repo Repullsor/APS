@@ -7,7 +7,7 @@ body {
     display: grid;
     place-items: center;
 
-  /* Just for parent demo size */
+
   height: 100vh;
 }
 
@@ -41,13 +41,14 @@ body {
     outline: none;
     font-size: 15px;
     border-radius: 5px;
+    width: 90%;
 }
 
 .button {
     background-color: #28a745;
     border: none;
     padding: 15px;
-    width: 74%;
+    width: 100%;
     border-radius: 5px;
     color: #ffffff;
     font-size: 15px;

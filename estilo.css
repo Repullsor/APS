@@ -60,9 +60,6 @@
 		display: none;
         margin: 50px 100px;
 	}
-	.container-menu {
-		
-	}
 
 	#btn-menu:checked ~ .container-menu{
 		opacity: 1;
